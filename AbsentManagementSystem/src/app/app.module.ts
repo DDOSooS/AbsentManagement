@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Components/login/login.component';
 import { HomeComponent } from './Components/home/home.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
-import { StudentsComponent } from './Components/students/students.component';
+import { StudentsComponent } from './Components/profile/students.component';
+import { AbsenceComponent } from './Components/absence/absence.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StudentsComponent } from './Components/students/students.component';
     LoginComponent,
     HomeComponent,
     DashboardComponent,
-    StudentsComponent
+    StudentsComponent,
+    AbsenceComponent
   ],
   imports: [
     BrowserModule,

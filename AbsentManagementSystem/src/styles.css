@@ -9,4 +9,5 @@ body {
     background-color: rgb(235, 235, 235);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
 }

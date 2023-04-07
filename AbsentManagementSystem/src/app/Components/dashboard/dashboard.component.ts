@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
 
+  fakeArray = new Array(4);
+
+  nbre = this.fakeArray.length;
+
+
 }
