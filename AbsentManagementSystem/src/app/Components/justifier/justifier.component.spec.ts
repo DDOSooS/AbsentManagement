@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AbsenceComponent } from './absence.component';
+import { JustifierComponent } from './justifier.component';
 
-describe('AbsenceComponent', () => {
-  let component: AbsenceComponent;
-  let fixture: ComponentFixture<AbsenceComponent>;
+describe('JustifierComponent', () => {
+  let component: JustifierComponent;
+  let fixture: ComponentFixture<JustifierComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AbsenceComponent ]
+      declarations: [ JustifierComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AbsenceComponent);
+    fixture = TestBed.createComponent(JustifierComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -4,7 +4,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { HomeComponent } from './Components/home/home.component';
 import { LoginComponent } from './Components/login/login.component';
 import { StudentsComponent } from './Components/profile/students.component';
-import { AbsenceComponent } from './Components/absence/absence.component';
+import { JustifierComponent } from './Components/justifier/justifier.component';
 
 const routes: Routes = [
 
@@ -13,7 +13,7 @@ const routes: Routes = [
   {path : 'admin' , component : HomeComponent},
   {path : 'accueil' , component : DashboardComponent},
   {path : 'profile' , component : StudentsComponent},
-  {path : 'absence' , component : AbsenceComponent},
+  {path : 'justifier' , component : JustifierComponent},
   // { path: '**', component: PageNotFoundComponent }
 ];
 
